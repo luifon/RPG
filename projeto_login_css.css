@@ -1,0 +1,24 @@
+.text-white{
+	color: white;
+}
+.login-box{
+	margin: auto;
+	width: 60%;
+	border: 3px solid white;
+	padding: 15px;
+}
+.atri{
+	height: 50px;
+}
+.atributos{
+	padding-top: 50px;
+}
+input{
+	color:black;
+}
+.make-a-padding{
+	padding-bottom: 100px;
+}
+select{
+	color: black;
+}
