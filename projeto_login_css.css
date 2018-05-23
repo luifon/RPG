@@ -1,8 +1,10 @@
 .text-white{
-	color: white;
+	color: black;
 }
+
 .login-box{
 	margin: auto;
+	margin-top: 150px;
 	width: 60%;
 	border: 3px solid white;
 	padding: 15px;
@@ -20,5 +22,5 @@ input{
 	padding-bottom: 100px;
 }
 select{
-	color: black;
+	color: white;
 }
