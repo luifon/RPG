@@ -4,10 +4,11 @@
 
 .login-box{
 	margin: auto;
-	margin-top: 150px;
+	margin-top: 50px;
 	width: 60%;
-	border: 3px solid white;
+	border: 3px solid black;
 	padding: 15px;
+	padding-bottom: 50px;
 }
 .atri{
 	height: 50px;
@@ -21,6 +22,6 @@ input{
 .make-a-padding{
 	padding-bottom: 100px;
 }
-select{
-	color: white;
+body{
+	padding-bottom: 50px;
 }

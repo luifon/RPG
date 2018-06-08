@@ -1,11 +1,11 @@
-<?php 
+T<?php 
 
 require_once('conexao.php');
 
 if(isset($_POST['cadastrar'])){
   $email = $_POST['email']; 
   $user = $_POST['user'];
-  $senha = MD5($_POST['senha']);
+  $senha = $_POST['senha'];
 }
 
 
@@ -21,8 +21,7 @@ if(isset($_POST['cadastrar'])){
     //não existe -> realiza cadastro
     $query = "INSERT INTO usuario (email, user, senha) VALUES ('".$email."', '".$user."', '".$senha."')";
     if(mysqli_query($conexao, $query)){
-      echo"sucesso";
-      echo "<script>window.location = 'projeto_login.html'</script>";
+      echo "<script>alert('Você criou seu usuario com sucesso.');window.location = 'projeto_login.php'</script>";
     }else{
       print_r($query);
     }
